@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emergency Service</title>
+
+    <!-- Daisy Ui cdn -->
+     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- Font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <header>
+        <!-- navber -->
+        <nav class="md:max-w-[1440px] flex flex-col md:flex-row mt-4 mb-4 justify-between mx-auto">
+            <!-- logo -->
+            <div class="flex items-center gap-2">
+                <img class="w-12 h-12" src="./assets/logo.png" alt="">
+                <h1 class="text-[#006747] md:text-[20px] font-extrabold leading-tight"> Emergency <br /> Service
+                </h1>
+            </div>
+
+            <!-- heart, coin & copy -->
+            <div class="flex flex-row space-x-4">
+                <!-- heart -->
+                <div class="flex w-32 h-14 bg-[#41ff6b1a] rounded-3xl items-center justify-center">
+                    <span class="text-base pr-2 font-bold">0</span>
+                    <img class="w-[30px] h-[30px]" src="./assets/heart.png" alt="">
+                </div>
+                <!-- coin -->
+                 <div class="flex w-32 h-14 bg-[#41ff6b1a] rounded-3xl items-center justify-center">
+                    <span class="text-base pr-2 font-bold">100</span>
+                    <img class="w-[30px] h-[30px]" src="./assets/coin.png" alt="">
+                </div>
+
+                <!-- copy -->
+                 <div>
+                    <button class="btn w-32 h-14 rounded-3xl bg-[#00a63e] text-base"> <span>2</span> Copy </button>
+                 </div>
+                 
+            </div>
+        </nav>
+
+            <!-- *************** Directory Banner/Hero Section ********************* -->
+        <section class="md:max-w-[1440px] bg-gradient-to-r from-[#013223] via-[#006747] to-[#013223] grid place-items-center text-center mx-auto"  >
+            <img class="w-[90px] h-[90px]" src="./assets/logo-dark.png" alt="">
+            <h1 class="text-[40px] text-white" >Emergency Service Directory</h1>
+            <p class=" text-[20px] text-white font-semibold pb-[20px]">Government Emergency Services at Your Fingertip – A Project by  Government of the People’s Republic of Bangladesh</p>
+        </section>
+   </header>
+
+       <!-- ************** Main Section ******************* -->
+
+   <main class="bg-[#41ff6b1a] md:max-w-[1440px] mx-auto">
+
+        <!-- *************** Card Container************ -->
+        <section>
+                <!-- card 1 National Emergency Number -->
+            <div class="bg-white w-[436.67px] h-[360px] p-8">
+                <div class="flex justify-between mb-4">
+                    <img class="w-12 h-12 bg-red-300 p-2 rounded-2xl" src="./assets/emergency.png" alt="">
+                    <button><i class="fa-regular fa-heart"></i></button>
+                </div>
+                <div>
+                    <h2 class="service-title text-[24px] font-bold">National Emergency Service</h2>
+                    <p class="text-lg font-normal text-[#5c5c5c]">National Emergency</p>
+                </div>
+                <div>
+                    <p class="font-bold text-2xl">999</p>
+                    <span class="inline-block px-4 py-1.5 rounded-full bg-slate-100 text-slate-600 text-base">All</span>
+                </div>
+                <div class="mt-6 flex gap-2">
+                    <button class="flex-1 rounded-xl px-3 py-2 text-sm border-neutral-400 border-1" ><i class="fa-solid fa-copy"></i> Copy </button>
+                    <button class="flex-1 rounded-xl bg-[#00A63E] text-white px-8 py-2 text-sm"><i class="fa-solid fa-phone"></i> Call </button>
+                </div>
+
+            </div>
+
+
+
+        </section>
+
+   </main>
+    
+</body>
+</html>
