@@ -28,7 +28,7 @@
             <div class="flex flex-row space-x-4">
                 <!-- heart -->
                 <div class="flex w-32 h-14 bg-[#41ff6b1a] rounded-3xl items-center justify-center">
-                    <span class="text-base pr-2 font-bold">0</span>
+                    <span id="heart-Counter" class="text-base pr-2 font-bold">0</span>
                     <img class="w-[30px] h-[30px]" src="./assets/heart.png" alt="">
                 </div>
                 <!-- coin -->
@@ -64,7 +64,7 @@
             <div class="bg-white p-8 shadow-md rounded-xl">
                 <div class="flex justify-between mb-4">
                     <img class="w-12 h-12 bg-red-300 p-2 rounded-2xl" src="./assets/emergency.png" alt="">
-                    <button><i class="fa-regular fa-heart"></i></button>
+                    <button><i class="fa-regular fa-heart cursor-pointer heart-coins"></i></button>
                 </div>
                 <div>
                     <h2 class="service-title text-[24px] font-bold">National Emergency Service</h2>
@@ -76,8 +76,8 @@
                     <span class="inline-block px-4 py-1.5 rounded-full bg-slate-100 text-slate-600 text-[20px]">All</span>
                 </div>
                 <div class="mt-6 flex gap-3">
-                    <button class="flex-1 rounded-xl px-3 py-2 text-base border-neutral-400 border-1" ><i class="fa-solid fa-copy"></i> Copy </button>
-                    <button class="flex-1 rounded-xl bg-[#00A63E] text-white px-8 py-2 text-base"><i class="fa-solid fa-phone"></i> Call </button>
+                    <button class="flex-1 rounded-xl px-3 py-2 text-base border-neutral-400 border-1 cursor-pointer" ><i class="fa-solid fa-copy"></i> Copy </button>
+                    <button class="flex-1 rounded-xl bg-[#00A63E] text-white px-8 py-2 text-base cursor-pointer"><i class="fa-solid fa-phone"></i> Call </button>
                 </div>
             </div>
 
@@ -85,7 +85,7 @@
             <div class="bg-white p-8 shadow-md rounded-xl">
                 <div class="flex justify-between mb-4">
                     <img class="w-12 h-12 bg-red-300 p-2 rounded-2xl" src="./assets/police.png" alt="">
-                    <button><i class="fa-regular fa-heart"></i></button>
+                    <button><i class="fa-regular fa-heart cursor-pointer heart-coins"></i></button>
                 </div>
                 <div>
                     <h2 class="service-title text-[24px] font-bold">Police Helpline Number</h2>
@@ -105,7 +105,7 @@
              <div class="bg-white p-8 shadow-md rounded-xl">
                 <div class="flex justify-between mb-4">
                     <img class="w-12 h-12 bg-red-300 p-2 rounded-2xl" src="./assets/fire-service.png" alt="">
-                    <button><i class="fa-regular fa-heart"></i></button>
+                    <button><i class="fa-regular fa-heart cursor-pointer heart-coins"></i></button>
                 </div>
                 <div>
                     <h2 class="service-title text-[24px] font-bold">Fire Service Number</h2>
@@ -126,7 +126,7 @@
              <div class="bg-white p-8 shadow-md rounded-xl">
                 <div class="flex justify-between mb-4">
                     <img class="w-12 h-12 bg-red-300 p-2 rounded-2xl" src="./assets/ambulance.png" alt="">
-                    <button><i class="fa-regular fa-heart"></i></button>
+                    <button><i class="fa-regular fa-heart cursor-pointer heart-coins"></i></button>
                 </div>
                 <div>
                     <h2 class="service-title text-[24px] font-bold">Ambulance Service</h2>
@@ -146,7 +146,7 @@
             <div class="bg-white p-8 shadow-md rounded-xl">
                 <div class="flex justify-between mb-4">
                     <img class="w-12 h-12 bg-red-300 p-2 rounded-2xl" src="./assets/emergency.png" alt="">
-                    <button><i class="fa-regular fa-heart"></i></button>
+                    <button><i class="fa-regular fa-heart cursor-pointer heart-coins"></i></button>
                 </div>
                 <div>
                     <h2 class="service-title text-[24px] font-bold">Women & Child Helpline</h2>
@@ -166,7 +166,7 @@
             <div class="bg-white p-8 shadow-md rounded-xl">
                 <div class="flex justify-between mb-4">
                     <img class="w-12 h-12 bg-red-300 p-2 rounded-2xl" src="./assets/emergency.png" alt="">
-                    <button><i class="fa-regular fa-heart"></i></button>
+                    <button><i class="fa-regular fa-heart cursor-pointer heart-coins"></i></button>
                 </div>
                 <div>
                     <h2 class="service-title text-[24px] font-bold">Anti-Corruption Helpline</h2>
@@ -186,7 +186,7 @@
             <div class="bg-white p-8 shadow-md rounded-xl">
                 <div class="flex justify-between mb-4">
                     <img class="w-12 h-12 bg-red-300 p-2 rounded-2xl" src="./assets/emergency.png" alt="">
-                    <button><i class="fa-regular fa-heart"></i></button>
+                    <button><i class="fa-regular fa-heart cursor-pointer heart-coins"></i></button>
                 </div>
                 <div>
                     <h2 class="service-title text-[24px] font-bold">Electricity Helpline</h2>
@@ -206,7 +206,7 @@
             <div class="bg-white p-8 shadow-md rounded-xl">
                 <div class="flex justify-between mb-4">
                     <img class="w-12 h-12 bg-red-300 p-2 rounded-2xl" src="./assets/emergency.png" alt="">
-                    <button><i class="fa-regular fa-heart"></i></button>
+                    <button><i class="fa-regular fa-heart cursor-pointer heart-coins"></i></button>
                 </div>
                 <div>
                     <h2 class="service-title text-[24px] font-bold">Brac Helpline</h2>
@@ -226,7 +226,7 @@
             <div class="bg-white p-8 shadow-md rounded-xl">
                 <div class="flex justify-between mb-4">
                     <img class="w-12 h-12 bg-red-300 p-2 rounded-2xl" src="./assets/emergency.png" alt="">
-                    <button><i class="fa-regular fa-heart"></i></button>
+                    <button><i class="fa-regular fa-heart cursor-pointer heart-coins"></i></button>
                 </div>
                 <div>
                     <h2 class="service-title text-[24px] font-bold">Bangladesh Railway Helpline </h2>
@@ -266,6 +266,6 @@
 
         </div>
    </main>
-    
+    <script src="./script.js"></script>
 </body>
 </html>
